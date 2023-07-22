@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes em Cartaz - Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <style>
+        .navbar-nav .nav-link.active {
+    color: #fff;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+        }
+        
+        section {
+            height: 100vh;
+            background-color: #ccc;
+            padding: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Filmes em Cartaz</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#lancamentos">Lançamentos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#maisVistos">Mais Vistos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#recomendacoes">Recomendações</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h1>Início</h1>
+        </section>
+        <section id="lancamentos">
+            <h1>Lançamentos</h1>
+        </section>
+        <section id="maisVistos">
+            <h1>Mais Vistos</h1>
+        </section>
+        <section id="recomendacoes">
+            <h1>Recomendações</h1>
+        </section>
+    </div>
+
+<script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
