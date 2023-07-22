@@ -3,7 +3,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.navbar-nav .nav-link.active {
-    color: #fff;
-}
