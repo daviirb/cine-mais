@@ -1,4 +1,4 @@
-# filmes-em-cartaz
+# Filmes em cartaz
 
 A entrega desse deste exercício consiste em:
 - Criar um projeto utilizado o Bootstrap;
